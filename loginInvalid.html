@@ -8,61 +8,58 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/app.css">
 
-    <title>Swim Central | Join</title>
+    <title>Swim Central | Sign In</title>
   </head>
 
   <body>
-    <div class="container">
+    
+    <div class="container bg-gray-100">
       <div class="row">
         <div class="col col-sm-12 col-md-6 col-lg-4 mt-sm-3 mt-lg-5 mx-auto ">
           
             <div class="form-user-login">
               <div class="mt-3 text-center">
                 <img src="img/sc-logo.png">
-                <h3 class="mt-4 font-weight-light">Join Swim Central</h3>
+                <h3 class="mt-4 font-weight-light">Sign in to Swim Central</h3>
               </div>
               <form class="card mt-3 shadow py-3 px-3">
                 <div class="card-body">
-                  
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+                  <div class="alert alert-danger" role="alert">
+                    Invalid username or password.
                   </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
-                  </div>
-
                   <div class="form-group">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                   </div>
 
                   <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Password">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <p class="text-right mt-2 mb-4"> <a href="retrievePassword.html" class="">Forgot Password?</a></p>
                   </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Confirm Password">
-                  </div>
-
-                  <a href="login.html" class="btn btn-success btn-block">Create an account</a>
+                  
+                  <a href="dashboard.html" class="btn btn-success btn-block">Sign in</a>
 
                   <hr class="hr-text" data-content="OR">
 
-                  <a href="dashboard.html" class="btn btn-info btn-facebook btn-block">Sign up using facebook</a>
+                  <a href="dashboard.html" class="btn btn-info btn-facebook btn-block">Log in using facebook</a>
 
-                  <p class="mt-3 mb-0 text-center">By creating an account, you agree to Swim Central's <a href="terms.html">Terms and Conditions</a> and <a href="terms.html">Waiver</a>.</p>
+                  
+
+
 
                 </div>
               </form> 
-              <div class="card mt-4 bg-transparent border border-gray-300">
+              <div class="card mt-4 bg-black-50 border border-gray-300">
                 <div class="card-body text-center">
-                  Already have an account? <a href="login.html" class="card-link font-weight-bold">Log in</a>.
+                  New to <span class="font-weight-bold">Swim Central</span>? <a href="register.html" class="card-link font-weight-bold">Create an account</a>.
                 </div>
               </div>
               <p class="copyright text-center mt-3">&copy; 2018 Swim Central. All rights reserved.</p>
             </div>
-
+            
         </div>
       </div>
     </div>
+
 
 
 

@@ -9562,6 +9562,10 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+html,
+body {
+  background-color: #f8f9fa; }
+
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #dee2e6;
@@ -9582,8 +9586,6 @@ readers do not read off random characters that represent icons */
         left: 0;
         top: 0px;
         flex-direction: column;
-        background: #f8f9fa;
-        border-right: 1px solid #dee2e6;
         width: 250px;
         padding: 70px 0 0 0rem;
         bottom: 0;
@@ -9643,5 +9645,49 @@ a,
 
 .border-gray-300 {
   border-color: #dee2e6 !important; }
+
+.footer-account {
+  background: green; }
+
+.page-wrapper.admin-dashboard {
+  margin: 0 0 0 250px;
+  padding: 70px 30px 0px;
+  border-left: 1px solid #dee2e6; }
+
+.tab-content {
+  border: 0px solid #dee2e6;
+  border-width: 0px 1px 1px;
+  padding: 20px 20px 0;
+  margin-bottom: 20px; }
+
+.page-wrapper.admin-dashboard,
+.page-wrapper .main-content {
+  background-color: #fff; }
+
+.page-header {
+  margin: 20px 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6 !important; }
+
+.bg-gray-100 {
+  background-color: #f8f9fa; }
+
+.dropdown-menu {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  max-height: 0;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0; }
+  .dropdown-menu.show {
+    max-height: 300px;
+    opacity: 1; }
+  @media (min-width: 576px) {
+    .dropdown-menu.dropdown-menu-right {
+      margin-right: 20px !important; } }
 
 /*# sourceMappingURL=app.css.map */
