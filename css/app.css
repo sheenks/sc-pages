@@ -9660,6 +9660,9 @@ a,
   padding: 20px 20px 0;
   margin-bottom: 20px; }
 
+.page-wrapper {
+  min-height: 100vh; }
+
 .page-wrapper.admin-dashboard,
 .page-wrapper .main-content {
   background-color: #fff; }
@@ -9671,6 +9674,19 @@ a,
 
 .bg-gray-100 {
   background-color: #f8f9fa; }
+
+.page-wrapper.admin-dashboard {
+  position: relative;
+  padding-bottom: 80px; }
+
+.page-wrapper.admin-dashboard footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.fa, .fas {
+  margin-right: .2em; }
 
 .dropdown-menu {
   -webkit-transition: all 0.3s;

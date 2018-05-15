@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+
+    <title>Swim Central | Dashboard</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <a class="navbar-brand" href="#"><img src="img/sc-logo.png" alt="Swim Central" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <ul class="navbar-nav navbar-sideNav">
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="adminDashboard.html"><i class="fas fa-tachometer-alt "></i> Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="manageBatch.html"><i class="fas fa-clipboard-list"></i> Batch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="manageProgram.html"><i class="fas fa-th-list"></i> Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#"><i class="fas fa-cog"></i> Settings</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav navbar-rightNav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#">My Classes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hello, User!
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-primary" href="#">My Profile</a>
+              <a class="dropdown-item text-primary" href="#">Account Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item text-primary" href="#">Log Out</a>
+              <button class="dropdown-item text-primary">Testing</button>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="page-wrapper admin-dashboard">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Hi, <b>Admin</b>!</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          
+        <div class="card">
+          <div class="card-header d-flex justify-content-sm-between">
+            <h2 class="mb-0">Programs</h2>
+            <div><a href="manageProgram.html" class="btn btn-success">Add program</a></div>
+          </div>
+
+          <div class="card-body">
+            <table class="table table-bordered table-hover table-program">
+              <thead class="">
+                <tr>
+                    <th>Program Name</th>
+                    <th>Duration</th>
+                    <th>Enrolled Students</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="manageProgram.html">Basic</a></td>
+                  <td>2</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td><a href="manageProgram.html">Survival</a></td>
+                  <td>3</td>
+                  <td>40</td>
+                </tr>
+                <tr>
+                  <td><a href="manageProgram.html">Private</a></td>
+                  <td>4</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td><a href="manageProgram.html">Skills Enhancement</a></td>
+                  <td>5</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+
+        <div class="card mt-5">
+          <div class="card-header d-flex justify-content-sm-between">
+            <h2 class="mb-0">Batch</h2>
+            <div><a href="manageBatch.html" class="btn btn-success">Add batch</a></div>
+          </div>
+
+          <div class="card-body">
+            <table class="table table-bordered table-hover table-program">
+              <thead class="">
+                <tr>
+                    <th>Batch Name</th>
+                    <th>Program</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>No. of Students</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="manageBatch.html">Batch 001</a></td>
+                  <td>Basic</td>
+                  <td>March 6, 2018</td>
+                  <td>April 26, 2018</td>
+                  <td>350</td>
+                </tr>
+                <tr>
+                  <td><a href="manageBatch.html">Batch 002</a></td>
+                  <td>Basic</td>
+                  <td>March 6, 2018</td>
+                  <td>April 26, 2018</td>
+                  <td>350</td>
+                </tr>
+                <tr>
+                  <td><a href="manageBatch.html">Batch 003</a></td>
+                  <td>Basic</td>
+                  <td>March 6, 2018</td>
+                  <td>April 26, 2018</td>
+                  <td>350</td>
+                </tr>
+                <tr>
+                  <td><a href="manageBatch.html">Batch 004</a></td>
+                  <td>Basic</td>
+                  <td>March 6, 2018</td>
+                  <td>April 26, 2018</td>
+                  <td>350</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+
+          
+
+
+
+        </div>
+      </div>
+
+      <footer class="mt-5 border-top bg-white">
+         <p class="copyright text-center pt-3 pb-3 mb-0">&copy; 2018 Swim Central. All rights reserved.</p>
+      </footer>
+    </div>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
